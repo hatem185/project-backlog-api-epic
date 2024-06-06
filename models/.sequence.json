@@ -1,0 +1,12 @@
+{
+  "sequence": [
+    "user.ts",
+    "project.ts",
+    "viewItem.ts",
+    "invite.ts",
+    "statusView.ts",
+    "projectMember.ts"
+  ],
+  "excludes": [],
+  "sequenceProps": {}
+}

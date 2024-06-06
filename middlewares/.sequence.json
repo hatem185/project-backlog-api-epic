@@ -1,0 +1,17 @@
+{
+  "sequence": [
+    "checkAuth.ts",
+    "checkHasInvitation.ts",
+    "checkInvitationStatus.ts",
+    "checkActorProjectMembership.ts",
+    "checkIsMembershipExist.ts"
+  ],
+  "excludes": [
+    "checkAuth.ts",
+    "checkHasInvitation.ts",
+    "checkInvitationStatus.ts",
+    "checkActorProjectMembership.ts",
+    "checkIsMembershipExist.ts"
+  ],
+  "sequenceProps": {}
+}

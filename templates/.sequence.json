@@ -1,0 +1,14 @@
+{
+  "sequence": [
+    "controller.blank.ts.ejs",
+    "controller.validated.ts.ejs",
+    "controller.versioned.ts.ejs",
+    "controller.crud.ts.ejs",
+    "model.blank.ts.ejs",
+    "job.blank.ts",
+    "middleware.blank.ts",
+    "hook.blank.ts",
+    "locale.blank.json"
+  ],
+  "excludes": []
+}
