@@ -1,46 +1,16 @@
-# epic-api
+#Project Backlog Management
+###Overview
+This project provides a comprehensive solution for managing project backlogs using the Epic framework with Deno.js. It allows users to create projects, invite members, and manage backlog items within various status views. Users are assigned different roles with specific permissions, such as root, edit, and view-only, to control access to project features.
 
-A simple and powerful api framework that allows you to build faster!
-
-### Quick Start
-
-```sh
-# Clone the repository
-git clone https://github.com/Oridune/epic-api.git my-new-app
-```
-
-### Environment variables are required
-
-In order to run the following repository you need to make sure that the
-directory where you cloned this repository contains the required environment
-files. You need to create the following files:\
-./env/.development.env\
-./env/.production.env\
-./env/.test.env
-
-You can copy the initial environment variables content from ./.sample.env and
-modify them.
-
-### Execute the following commands to run the application on your local machine:
-
-```sh
-# For development server
-deno task dev
-
-# For production
-deno task start
-
-# For test
-deno task test
-```
-
-### Always keep your application updated!
-
-You should always keep your application updated in order to fix any possible
-vulnerabilities or bugs. You can update the core of this application by running
-the following command.
-
-```sh
-# Following command updates the core of the application and make sure that the application has the latest security patches.
-deno task update:core
-```
+###Features
+Project Creation: Create and manage projects.
+User Invitation: Invite users to join projects with specific roles.
+Backlog Management: Add, view, and edit backlog items.
+Status Views: Organize backlog items into different status views like "In Progress", "Completed", etc.
+Role-Based Access Control: Define user roles to control access and permissions.
+Epic Framework: Leverages the Epic framework for building robust applications.
+Deno.js: Utilizes Deno.js for a secure and modern runtime environment.
+###Usage
+Create a Project: Create new projects to manage backlog items.
+Invite Users: Invite users to the project and assign roles.
+Manage Backlog: Add, edit, and manage backlog items in different views.
